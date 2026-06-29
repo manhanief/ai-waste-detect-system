@@ -1,0 +1,42 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ── Virtual environments ───────────────────────────────────────────────────────
+.venv/
+.venv311/
+venv/
+env/
+ENV/
+
+# ── Datasets (too large for GitHub — share via Google Drive / Kaggle) ─────────
+dataset/
+dataset-resized/
+dataset-debug/
+dataset-debug-verbose/
+
+# ── Generated training outputs ─────────────────────────────────────────────────
+curves_*.png
+confusion_matrix_*.png
+samples_original.png
+samples_augmented.png
+
+# ── Debug / scratch scripts ───────────────────────────────────────────────────
+split_debug*.py
+split_build_dataset.py
+
+# ── macOS system files ────────────────────────────────────────────────────────
+.DS_Store
+**/.DS_Store
+*.icloud
+
+# ── IDE / editor ──────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
